@@ -2,25 +2,18 @@
 <items version="2" >
 
     <item
-        jar="/home/rashi/AndroidStudioProjects/BuildItBigger/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
-        <dex dex="/home/rashi/AndroidStudioProjects/BuildItBigger/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_fd014856379bc7e70fedf3837af82e278314e705.jar" />
-    </item>
-    <item
-        jar="/home/rashi/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
-        <dex dex="/home/rashi/AndroidStudioProjects/BuildItBigger/app/build/intermediates/pre-dexed/debug/support-annotations-25.0.0_a2dbfd746bb5450aa1acef6ee032bf5eeaafe5e7.jar" />
-    </item>
-    <item
         jar="/home/rashi/AndroidStudioProjects/BuildItBigger/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.8.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.3"
         sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
         <dex dex="/home/rashi/AndroidStudioProjects/BuildItBigger/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-9.8.0_b7d58477c6f2a3f117c721a6a03d9d1bc36752f4.jar" />
+    </item>
+    <item
+        jar="/home/rashi/AndroidStudioProjects/BuildItBigger/joketeller/build/libs/joketeller.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="8c2e6c6e4ba2630c8d3104ad558e6ad1287fd031">
+        <dex dex="/home/rashi/AndroidStudioProjects/BuildItBigger/app/build/intermediates/pre-dexed/debug/joketeller_f2bd52fd6d9dc3e40706d39efe069bf65425e8ab.jar" />
     </item>
     <item
         jar="/home/rashi/AndroidStudioProjects/BuildItBigger/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/jars/classes.jar"
@@ -30,11 +23,18 @@
         <dex dex="/home/rashi/AndroidStudioProjects/BuildItBigger/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-9.8.0_c06ef146d018710beb747935c8e0409ec4290c0f.jar" />
     </item>
     <item
-        jar="/home/rashi/AndroidStudioProjects/BuildItBigger/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/classes.jar"
+        jar="/home/rashi/AndroidStudioProjects/BuildItBigger/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.3"
-        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
-        <dex dex="/home/rashi/AndroidStudioProjects/BuildItBigger/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.0.0_72dbacdcba2934d63d7485e11c1fe06ffbdf90f1.jar" />
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="/home/rashi/AndroidStudioProjects/BuildItBigger/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.2.1_052d5f0137ffcff84b331fcdfa8a3b53f4609171.jar" />
+    </item>
+    <item
+        jar="/home/rashi/AndroidStudioProjects/BuildItBigger/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/home/rashi/AndroidStudioProjects/BuildItBigger/app/build/intermediates/pre-dexed/debug/internal_impl-24.0.0_ffe125e3392553c385757e0cd6a15493ce93fee5.jar" />
     </item>
     <item
         jar="/home/rashi/AndroidStudioProjects/BuildItBigger/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.8.0/jars/classes.jar"
@@ -44,11 +44,11 @@
         <dex dex="/home/rashi/AndroidStudioProjects/BuildItBigger/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-lite-9.8.0_13cb4717dfd0809a79712b558d0152afa5716375.jar" />
     </item>
     <item
-        jar="/home/rashi/AndroidStudioProjects/BuildItBigger/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.0/jars/classes.jar"
+        jar="/home/rashi/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
         jumboMode="false"
         revision="23.0.3"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/home/rashi/AndroidStudioProjects/BuildItBigger/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.0.0_2889c6d1d92fb76093661b5df3ac2d4a92bceadc.jar" />
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/home/rashi/AndroidStudioProjects/BuildItBigger/app/build/intermediates/pre-dexed/debug/support-annotations-24.0.0_f11cf52e63247ebabd183580ccf9eba2e3dcf8aa.jar" />
     </item>
     <item
         jar="/home/rashi/AndroidStudioProjects/BuildItBigger/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.8.0/jars/classes.jar"
@@ -58,25 +58,11 @@
         <dex dex="/home/rashi/AndroidStudioProjects/BuildItBigger/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-9.8.0_a8ee5acf23b804d9095d703557b416f6d3061681.jar" />
     </item>
     <item
-        jar="/home/rashi/AndroidStudioProjects/BuildItBigger/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="26674000177e45447a0326a6ad84612761199a13">
-        <dex dex="/home/rashi/AndroidStudioProjects/BuildItBigger/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.0.0_8749c270304530dca6cf432dac262f1c3e748571.jar" />
-    </item>
-    <item
         jar="/home/rashi/AndroidStudioProjects/BuildItBigger/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.8.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.3"
         sha1="363a20f1d25336e827dd24020f2ecdc42d62638f">
         <dex dex="/home/rashi/AndroidStudioProjects/BuildItBigger/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gass-9.8.0_5847735136ae1830d92d787552bb59299cbf3fb7.jar" />
-    </item>
-    <item
-        jar="/home/rashi/AndroidStudioProjects/BuildItBigger/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
-        <dex dex="/home/rashi/AndroidStudioProjects/BuildItBigger/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.0.0_03e61b4a9a9ca64139f3298a45bfc4a6ccb9605e.jar" />
     </item>
     <item
         jar="/home/rashi/AndroidStudioProjects/BuildItBigger/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.8.0/jars/classes.jar"
@@ -86,25 +72,11 @@
         <dex dex="/home/rashi/AndroidStudioProjects/BuildItBigger/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-clearcut-9.8.0_a1a74cf1d27a8e122eb80eb9414ea2d386c5539c.jar" />
     </item>
     <item
-        jar="/home/rashi/AndroidStudioProjects/BuildItBigger/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/jars/classes.jar"
+        jar="/home/rashi/AndroidStudioProjects/BuildItBigger/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.3"
-        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
-        <dex dex="/home/rashi/AndroidStudioProjects/BuildItBigger/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.0.0_93a4726838a94c8ad8ecfd242caee60afd215e50.jar" />
-    </item>
-    <item
-        jar="/home/rashi/AndroidStudioProjects/BuildItBigger/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
-        <dex dex="/home/rashi/AndroidStudioProjects/BuildItBigger/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.0.0_5053234adfe1b067e289966928f44a575a53de62.jar" />
-    </item>
-    <item
-        jar="/home/rashi/AndroidStudioProjects/BuildItBigger/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
-        <dex dex="/home/rashi/AndroidStudioProjects/BuildItBigger/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_f7ff77b7c2ecf932e4104cc7290dc2ab672ce491.jar" />
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="/home/rashi/AndroidStudioProjects/BuildItBigger/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.2.1_52cd3d51956156f4b23777e0d9e60e9e8c970c20.jar" />
     </item>
     <item
         jar="/home/rashi/AndroidStudioProjects/BuildItBigger/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.8.0/jars/classes.jar"
@@ -114,46 +86,18 @@
         <dex dex="/home/rashi/AndroidStudioProjects/BuildItBigger/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-9.8.0_c3e76741706255115b1bcba94d91056ec4893618.jar" />
     </item>
     <item
-        jar="/home/rashi/AndroidStudioProjects/BuildItBigger/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jar="/home/rashi/AndroidStudioProjects/BuildItBigger/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.3"
-        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
-        <dex dex="/home/rashi/AndroidStudioProjects/BuildItBigger/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_3678d30241e9c5a8dffb46d244648c7a527e6708.jar" />
+        sha1="673d77a5bbddd766037f088e775df525c46407f0">
+        <dex dex="/home/rashi/AndroidStudioProjects/BuildItBigger/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.2.1_1f58becd543617886c05922c884dc928dbf5cc61.jar" />
     </item>
     <item
-        jar="/home/rashi/AndroidStudioProjects/BuildItBigger/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/classes.jar"
+        jar="/home/rashi/AndroidStudioProjects/BuildItBigger/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.3"
-        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
-        <dex dex="/home/rashi/AndroidStudioProjects/BuildItBigger/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.0.0_553b5ec1e07ef36f6cc76e12f99c4c737cdcc44a.jar" />
-    </item>
-    <item
-        jar="/home/rashi/AndroidStudioProjects/BuildItBigger/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="/home/rashi/AndroidStudioProjects/BuildItBigger/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_bbc3b68356845a6264e0f2e666d40c3ac22d8b67.jar" />
-    </item>
-    <item
-        jar="/home/rashi/AndroidStudioProjects/BuildItBigger/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
-        <dex dex="/home/rashi/AndroidStudioProjects/BuildItBigger/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.0.0_5bd0b80617e30857aa691c67e8d7f211f617e769.jar" />
-    </item>
-    <item
-        jar="/home/rashi/AndroidStudioProjects/BuildItBigger/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
-        <dex dex="/home/rashi/AndroidStudioProjects/BuildItBigger/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_3762ddb66d64d0456b5da0d3d3f145a1ab393470.jar" />
-    </item>
-    <item
-        jar="/home/rashi/AndroidStudioProjects/BuildItBigger/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
-        <dex dex="/home/rashi/AndroidStudioProjects/BuildItBigger/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.0.0_9cbc57a5281b44fb8799de52d24473169811ab46.jar" />
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/home/rashi/AndroidStudioProjects/BuildItBigger/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.0.0_9ddf1a3beb0cb305e9f65f2cb165be7874c335a0.jar" />
     </item>
 
 </items>
