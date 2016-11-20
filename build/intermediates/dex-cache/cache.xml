@@ -1,12 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" >
-
-    <item
-        jar="/home/rashi/AndroidStudioProjects/BuildItBigger/app/build/intermediates/exploded-aar/BuildItBigger/jokelibrary/unspecified/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="f415ca5e2d2bf7cbe0ad35e7c0e99c2932957f19">
-        <dex dex="/home/rashi/AndroidStudioProjects/BuildItBigger/app/build/intermediates/pre-dexed/debug/BuildItBigger-jokelibrary-unspecified_b5b49f9ed2ab3c7aeaaa8459519b94030c385e9b.jar" />
-    </item>
-
-</items>
+<items version="2" />
