@@ -2,8 +2,7 @@ package com.udacity.gradle.builditbigger;
 
 import android.content.Context;
 import android.test.AndroidTestCase;
-
-import com.google.appengine.repackaged.com.google.common.base.Pair;
+import android.util.Pair;
 
 import org.mockito.Mock;
 
@@ -39,7 +38,7 @@ public class TestAsyncStringNotNull extends AndroidTestCase {
             //Default timeout for the GCM server is 20 seconds
             //If the .get can't get the result in 10 seconds, something is wrong anyway
             //Greater than 20 seconds results in an error string returned and requires further interpretation
-            task.execute((Runnable) new Pair<Context, String>(mockContext, "Rashi"));
+            task.execute((Runnable) new Pair<Context,String>(mockContext, "Rashi"));
             result = task.get(10, TimeUnit.SECONDS);
             assertNotNull(result);
 

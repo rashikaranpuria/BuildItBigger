@@ -11,7 +11,8 @@ android {
         versionCode 1
         versionName "1.0"
         multiDexEnabled true
-        testInstrumentationRunner "android.support.test.runner.MultiDexTestRunner"
+        testInstrumentationRunner "com.android.test.runner.MultiDexTestRunner"
+
 
     }
     buildTypes {
@@ -19,9 +20,6 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
-    }
-    configurations.all {
-        resolutionStrategy.force 'com.google.code.findbugs:jsr305:1.3.9'
     }
 
     productFlavors {
@@ -36,14 +34,11 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
-        exclude group: 'com.android.support', module: 'support-annotations'
-    })
     compile project(':joketeller')
     compile project(':jokelibrary')
     compile 'com.android.support:appcompat-v7:24.2.1'
     freeCompile 'com.google.android.gms:play-services-ads:9.6.1'
+    compile 'com.google.code.findbugs:jsr305:2.0.1'
     compile project(path: ':backend', configuration: 'android-endpoints')
     androidTestCompile "org.mockito:mockito-core:1.+"
-    compile 'com.google.appengine:appengine-api-1.0-sdk:1.9.18'
 }
