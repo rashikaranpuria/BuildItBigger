@@ -20,40 +20,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a9cefb3-843b-4849-ba81-ed21743f0724" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/mockito_core_1_8_0_rc2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/multidex_1_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/multidex_instrumentation_1_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/objenesis_1_0.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_ads_9_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_ads_9_6_1.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_ads_lite_9_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_basement_9_6_1.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_base_9_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_gass_9_6_1.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_basement_9_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_clearcut_9_6_1.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_clearcut_9_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_ads_lite_9_6_1.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_gass_9_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_base_9_6_1.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_tasks_9_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_tasks_9_6_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/libs/backend-android-endpoints.jar" afterPath="$PROJECT_DIR$/backend/build/libs/backend-android-endpoints.jar" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/com/example/rashi/myapplication/backend/myApi/MyApi$Builder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/com/example/rashi/myapplication/backend/myApi/MyApi$SayHi.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/com/example/rashi/myapplication/backend/myApi/MyApi.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/com/example/rashi/myapplication/backend/myApi/MyApiRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/com/example/rashi/myapplication/backend/myApi/MyApiRequestInitializer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/com/example/rashi/myapplication/backend/myApi/MyApiScopes.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/build/classes/endpointsSrc/com/example/rashi/myapplication/backend/myApi/model/MyBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/build/client-libs/myApi-v1-java.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/com/example/rashi/myapplication/backend/myApi/MyApi.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/com/example/rashi/myapplication/backend/myApi/MyApiRequest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/com/example/rashi/myapplication/backend/myApi/MyApiRequestInitializer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/com/example/rashi/myapplication/backend/myApi/MyApiScopes.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/com/example/rashi/myapplication/backend/myApi/model/MyBean.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/build/libs/backend-android-endpoints.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/build/tmp/_appengineEndpointsAndroidArtifact/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/build/tmp/appengineEndpointsExpandClientLibs/myApi-v1-java.zip-unzipped/myApi/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/build/tmp/appengineEndpointsExpandClientLibs/myApi-v1-java.zip-unzipped/myApi/build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/build/tmp/appengineEndpointsExpandClientLibs/myApi-v1-java.zip-unzipped/myApi/proguard-google-api-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/build/tmp/appengineEndpointsExpandClientLibs/myApi-v1-java.zip-unzipped/myApi/readme.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/build/tmp/appengineEndpointsExpandClientLibs/myApi-v1-java.zip-unzipped/myApi/src/main/java/com/example/rashi/myapplication/backend/myApi/MyApi.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/build/tmp/appengineEndpointsExpandClientLibs/myApi-v1-java.zip-unzipped/myApi/src/main/java/com/example/rashi/myapplication/backend/myApi/MyApiRequest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/build/tmp/appengineEndpointsExpandClientLibs/myApi-v1-java.zip-unzipped/myApi/src/main/java/com/example/rashi/myapplication/backend/myApi/MyApiRequestInitializer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/build/tmp/appengineEndpointsExpandClientLibs/myApi-v1-java.zip-unzipped/myApi/src/main/java/com/example/rashi/myapplication/backend/myApi/MyApiScopes.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/build/tmp/appengineEndpointsExpandClientLibs/myApi-v1-java.zip-unzipped/myApi/src/main/java/com/example/rashi/myapplication/backend/myApi/model/MyBean.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/joketeller/build/libs/joketeller.jar" afterPath="$PROJECT_DIR$/joketeller/build/libs/joketeller.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/client-libs/myApi-v1-java.zip" afterPath="$PROJECT_DIR$/backend/build/client-libs/myApi-v1-java.zip" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/outputFileStates.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/udacity/gradle/builditbigger/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/udacity/gradle/builditbigger/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/com/example/rashi/myapplication/backend/myApi/MyApi.java" afterPath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/com/example/rashi/myapplication/backend/myApi/MyApi.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/tmp/appengineEndpointsExpandClientLibs/myApi-v1-java.zip-unzipped/myApi/src/main/java/com/example/rashi/myapplication/backend/myApi/MyApi.java" afterPath="$PROJECT_DIR$/backend/build/tmp/appengineEndpointsExpandClientLibs/myApi-v1-java.zip-unzipped/myApi/src/main/java/com/example/rashi/myapplication/backend/myApi/MyApi.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/com/example/rashi/myapplication/backend/myApi/MyApiRequest.java" afterPath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/com/example/rashi/myapplication/backend/myApi/MyApiRequest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/tmp/appengineEndpointsExpandClientLibs/myApi-v1-java.zip-unzipped/myApi/src/main/java/com/example/rashi/myapplication/backend/myApi/MyApiRequest.java" afterPath="$PROJECT_DIR$/backend/build/tmp/appengineEndpointsExpandClientLibs/myApi-v1-java.zip-unzipped/myApi/src/main/java/com/example/rashi/myapplication/backend/myApi/MyApiRequest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/com/example/rashi/myapplication/backend/myApi/MyApiRequestInitializer.java" afterPath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/com/example/rashi/myapplication/backend/myApi/MyApiRequestInitializer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/tmp/appengineEndpointsExpandClientLibs/myApi-v1-java.zip-unzipped/myApi/src/main/java/com/example/rashi/myapplication/backend/myApi/MyApiRequestInitializer.java" afterPath="$PROJECT_DIR$/backend/build/tmp/appengineEndpointsExpandClientLibs/myApi-v1-java.zip-unzipped/myApi/src/main/java/com/example/rashi/myapplication/backend/myApi/MyApiRequestInitializer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/com/example/rashi/myapplication/backend/myApi/MyApiScopes.java" afterPath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/com/example/rashi/myapplication/backend/myApi/MyApiScopes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/tmp/appengineEndpointsExpandClientLibs/myApi-v1-java.zip-unzipped/myApi/src/main/java/com/example/rashi/myapplication/backend/myApi/MyApiScopes.java" afterPath="$PROJECT_DIR$/backend/build/tmp/appengineEndpointsExpandClientLibs/myApi-v1-java.zip-unzipped/myApi/src/main/java/com/example/rashi/myapplication/backend/myApi/MyApiScopes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/com/example/rashi/myapplication/backend/myApi/model/MyBean.java" afterPath="$PROJECT_DIR$/backend/build/generated-source/endpoints/java/com/example/rashi/myapplication/backend/myApi/model/MyBean.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/build/tmp/appengineEndpointsExpandClientLibs/myApi-v1-java.zip-unzipped/myApi/src/main/java/com/example/rashi/myapplication/backend/myApi/model/MyBean.java" afterPath="$PROJECT_DIR$/backend/build/tmp/appengineEndpointsExpandClientLibs/myApi-v1-java.zip-unzipped/myApi/src/main/java/com/example/rashi/myapplication/backend/myApi/model/MyBean.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BuildItBigger.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -5675,7 +5671,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="24" width="1299" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -5691,7 +5687,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3048683" sideWeight="0.41007194" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32850242" sideWeight="0.48443735" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32850242" sideWeight="0.48443735" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1867518" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
