@@ -1,4 +1,5 @@
 <resources>
+    <string name="app_name">Build it Bigger (Free)</string>
     <string name="instructions">Press the button for a delicious free joke!</string>
     <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
 </resources>
