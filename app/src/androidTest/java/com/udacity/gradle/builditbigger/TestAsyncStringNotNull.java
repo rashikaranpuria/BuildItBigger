@@ -21,7 +21,7 @@ public class TestAsyncStringNotNull extends AndroidTestCase {
         super.setUp();
 
         result = null;
-        task = new EndpointsAsyncTask(mockContext){
+        task = new EndpointsAsyncTask(mockContext,null){
             @Override
             protected void onPostExecute(String joke){
                 //No need to launch intent, so override this method

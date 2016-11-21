@@ -33,4 +33,17 @@
         ads:adSize="BANNER"
         ads:adUnitId="@string/banner_ad_unit_id"></com.google.android.gms.ads.AdView>
 
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:maxHeight="90dip"
+        android:minHeight="90dip"
+        android:minWidth="40dip"
+        android:maxWidth="40dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="invisible"/>
+
 </RelativeLayout>

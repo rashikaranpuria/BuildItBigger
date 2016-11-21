@@ -9,6 +9,7 @@ import android.util.Pair;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ProgressBar;
 
 import com.example.rashi.jokelibrary.JokeActivity;
 import com.example.rashi.myapplication.backend.myApi.MyApi;
@@ -20,11 +21,12 @@ import com.google.api.client.googleapis.services.GoogleClientRequestInitializer;
 import java.io.IOException;
 
 public class MainActivity extends ActionBarActivity {
-
+    private ProgressBar progressBar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        progressBar = (ProgressBar)findViewById(R.id.progressBar);
     }
 
 
@@ -51,7 +53,8 @@ public class MainActivity extends ActionBarActivity {
     }
 
     public void tellJoke(View view) {
-        new EndpointsAsyncTask(this).execute(new Pair<Context, String>(this, "Rashi"));
+        progressBar.setVisibility(View.VISIBLE);
+        new EndpointsAsyncTask(this, progressBar).execute(new Pair<Context, String>(this, "Rashi"));
 //        jokeSmith joker = new jokeSmith();
 //        Intent myIntent = new Intent(this, JokeActivity.class);
 //        String joke = joker.getJoke();
@@ -65,9 +68,10 @@ public class MainActivity extends ActionBarActivity {
 class EndpointsAsyncTask extends AsyncTask<Pair<Context, String>, Void, String> {
     private static MyApi myApiService = null;
     private Context context;
-
-    public EndpointsAsyncTask(Context mockContext) {
+    private ProgressBar progressBar;
+    public EndpointsAsyncTask(Context mockContext, ProgressBar progressBar) {
         this.context = mockContext;
+        this.progressBar = progressBar;
     }
 
 
@@ -104,6 +108,7 @@ class EndpointsAsyncTask extends AsyncTask<Pair<Context, String>, Void, String> 
 
     @Override
     protected void onPostExecute(String result) {
+        progressBar.setVisibility(View.GONE);
         Intent myIntent = new Intent(context, JokeActivity.class);
         myIntent.putExtra("joke", result);
         context.startActivity(myIntent);
