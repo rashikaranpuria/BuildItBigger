@@ -51,7 +51,7 @@ public class MainActivity extends ActionBarActivity {
     }
 
     public void tellJoke(View view) {
-        new EndpointsAsyncTask().execute(new Pair<Context, String>(this, "Rashi"));
+        new EndpointsAsyncTask(this).execute(new Pair<Context, String>(this, "Rashi"));
 //        jokeSmith joker = new jokeSmith();
 //        Intent myIntent = new Intent(this, JokeActivity.class);
 //        String joke = joker.getJoke();
@@ -65,6 +65,12 @@ public class MainActivity extends ActionBarActivity {
 class EndpointsAsyncTask extends AsyncTask<Pair<Context, String>, Void, String> {
     private static MyApi myApiService = null;
     private Context context;
+
+    public EndpointsAsyncTask(Context mockContext) {
+        this.context = mockContext;
+    }
+
+
 
     @Override
     protected String doInBackground(Pair<Context, String>... params) {
@@ -99,7 +105,7 @@ class EndpointsAsyncTask extends AsyncTask<Pair<Context, String>, Void, String> 
     @Override
     protected void onPostExecute(String result) {
         Intent myIntent = new Intent(context, JokeActivity.class);
-        myIntent.putExtra("joke",result);
+        myIntent.putExtra("joke", result);
         context.startActivity(myIntent);
 //        Toast.makeText(context, result, Toast.LENGTH_LONG).show();
     }

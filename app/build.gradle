@@ -10,7 +10,9 @@ android {
         targetSdkVersion 24
         versionCode 1
         versionName "1.0"
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+        testInstrumentationRunner "android.support.test.runner.MultiDexTestRunner"
+
     }
     buildTypes {
         release {
@@ -40,6 +42,8 @@ dependencies {
     compile project(':joketeller')
     compile project(':jokelibrary')
     compile 'com.android.support:appcompat-v7:24.2.1'
-    freeCompile 'com.google.android.gms:play-services-ads:9.8.0'
+    freeCompile 'com.google.android.gms:play-services-ads:9.6.1'
     compile project(path: ':backend', configuration: 'android-endpoints')
+    androidTestCompile "org.mockito:mockito-core:1.+"
+    compile 'com.google.appengine:appengine-api-1.0-sdk:1.9.18'
 }
