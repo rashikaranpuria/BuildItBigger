@@ -38,12 +38,12 @@ public class TestAsyncStringNotNull extends AndroidTestCase {
             //Default timeout for the GCM server is 20 seconds
             //If the .get can't get the result in 10 seconds, something is wrong anyway
             //Greater than 20 seconds results in an error string returned and requires further interpretation
-            task.execute((Runnable) new Pair<Context,String>(mockContext, "Rashi"));
+            task.execute(new Pair<Context, String>(mockContext, "Manfred"));
             result = task.get(10, TimeUnit.SECONDS);
             assertNotNull(result);
 
         }catch (Exception e){
-            fail("Timed out");
+            fail(e.getMessage());
         }
     }
 }
